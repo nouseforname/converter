@@ -1,0 +1,49 @@
+# dotnet commands
+
+# create solution
+dotnet new sln
+
+
+# create library project
+dotnet new classlib -o <ProjectName>
+
+# create test project
+dotnet new xunit -o TESTPROJECT
+
+# create console app
+dotnet new console -o APPNAME
+
+
+# add projects to sln
+dotnet sln add <PathToProjectFile>
+
+
+# add references
+dotnet add PROJECT reference REFERENCEPROJECT
+
+
+# add package to library project from NuGet
+dotnet add LIBRARY package PACKAGENAME
+
+# add test project to sln
+dotnet add PATHTOTESTPROJECT reference PATHTOPROJECT
+
+
+
+# run test
+dotnet test PATHTOTESTPROJECT
+
+
+# run app
+dotnet run -p CONSOLEAPP
+
+
+#  restore dependencies
+dotnet restore
+
+
+# build sln
+dotnet build
+
+
+
