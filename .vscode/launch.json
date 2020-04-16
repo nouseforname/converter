@@ -12,7 +12,10 @@
       // If you have changed target frameworks, make sure to update the program path.
       "program": "${workspaceFolder}/convercnc/bin/Debug/netcoreapp3.1/convercnc.dll",
       "args": [
-        "--test"
+        "--inputType",
+        "sm5000",
+        "--inputFile",
+        "maddin.ex2"
       ],
       "cwd": "${workspaceFolder}/convercnc",
       // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
